@@ -17,10 +17,12 @@ params:
         nature: 4
         archive: 6
         people: 2
+        objects: 3
         default: 3
       mobile:
         default: 2
         archive: 3
+        objects: 3
         people: 1
   socials:
     # todo: change these links.
@@ -39,7 +41,7 @@ params:
     - work
     - archive
   bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
-  disableWelcomePageBackground: false # disables the background image on the homepage
+  disableWelcomePageBackground: true # disables the background image on the homepage
   plausible: '' # todo: set your plausible id.
   disableRadius: false
   moveIt: false  # Moves Title and Meta info down, only visible when scroll.
@@ -68,9 +70,12 @@ menu:
     - name: nature
       url: /tags/nature/
       weight: 3
+    - name: objects
+      url: /tags/objects/
+      weight: 4
     - name: archive
       url: /tags/archive/
-      weight: 4
+      weight: 5
     - name: about
       url: /about/
-      weight: 5
+      weight: 6
